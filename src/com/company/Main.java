@@ -6,26 +6,23 @@ public class Main {
 	// write your code here
 
         System.out.println("Hello Sebi");
-        System.out.println(8+3);
-        System.out.println(22/3);
-        System.out.println(20+-3*518);
-        System.out.println(5+15/3*2-8%3);
-int a = 8;
-int b = 3;
-int c = a + b;
-        System.out.println("Addition result = " + c);
-        int d = 22;
-        int e = 7;
-        int f = d / e;
-        System.out.println("Subtraction result = " + f);
-        int g = -5;
-        int h = 8;
-        int i = 6;
-        int j = h * i;
-        int k = g + j;
-        System.out.println("Multiplying result = " +j);
-        System.out.println("Addition result = " +k);
+        float x = 22;
+        float y = 3;
+        float m = 20;
+        float p = 5;
+        float r = 15;
+        float q = 2;
+        float a = 8;
+        float c = 6;
+        float d = 9;
+        float e = 55;
 
+        System.out.println(a+y);
+        System.out.println(x/y);
+        System.out.println(-p+a*c);
+        System.out.println((e+d)%d);
+        System.out.println(m+-y*p/a);
+        System.out.println(p+r/y*q-a%y);
 
 
 
