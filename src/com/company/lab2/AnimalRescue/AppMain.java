@@ -1,7 +1,44 @@
 package com.company.lab2.AnimalRescue;
 
 public class AppMain {
-    public static void main(String[] args) {
+    public String getDogName;
+    public double getDogAgeInYears;
+    public String getDogColor;
+    public double getDogWeightInKilograms;
+    public double getDogHeightInMeters;
+    public String getDogRace;
+    public String DogName;
+    public String DogRace;
+    public double DogHeightInMeters;
+    public double DogWeightInKilograms;
+    public String DogColor;
+    public double DogAgeInYears;
+    public String name;
+    public double ageInYears;
+    public String color;
+    public double weightInKilograms;
+    public double heightInMeters;
+    public String race;
+    public String getDogFoodName;
+    public double getDogFoodWeightInKilograms;
+    public String getTypeDogFood;
+    public String Name;
+    public Object WeightInKilograms;
+    public Object TypeDogFood;
+
+    public double getGirlAgeInYears;
+    public String getGirlName;
+    public double GirlWeightInKilograms;
+    public String GirlName;
+    public double GirlAgeInYears;
+
+    public double getGirlWeightInKilograms;
+    public String getVetName;
+    public String getVetAgeInYears;
+    public String VetName;
+    public Double VetAgeInYears;
+
+    private static void main(String[] args) {
         Dog myDog = new Dog();
         DogFood myDogFood = new DogFood();
         Girl myGirl = new Girl();
@@ -12,24 +49,9 @@ public class AppMain {
         mySecondDogFood.name = "Purina";
         Vet mySecondVet = new Vet();
         mySecondVet.name = "Mr Doolittle";
-        System.out.println(myDog.name);
-        System.out.println(myDog.ageInYears);
-        System.out.println(myDog.color);
-        System.out.println(myDog.weightInKilograms);
-        System.out.println(myDog.heightInMeters);
-        System.out.println(myDog.race);
-        System.out.println(myGirl.name);
-        System.out.println(myGirl.ageInYears);
-        System.out.println(myGirl.weightInKilograms);
-        System.out.println(myDogFood.meatDogFood);
-        System.out.println(myDogFood.typeDogFood);
-        System.out.println(myDogFood.name);
-        System.out.println(myDogFood.weightInKilograms);
-        System.out.println(myVet.ageInYears);
-        System.out.println(myVet.name);
-        System.out.println(mySecondDog.name);
-        System.out.println(mySecondDogFood.name);
-        System.out.println(mySecondVet.name);
+    }
+
+    
 
 
 
@@ -58,4 +80,4 @@ public class AppMain {
 
 
 
-}
+
