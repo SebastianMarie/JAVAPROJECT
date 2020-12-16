@@ -3,17 +3,7 @@ package com.company;
 
 
 public class Main{
-    {
 
-
-
-        OperatiiLogice op = new OperatiiLogice();
-
-        int biggest = op.checkBiggerNumber(2,3);
-
-        System.out.println("The bigger number is: " + biggest);
-
-    }
 
     {
 	// write your code here
@@ -44,4 +34,6 @@ public class Main{
 
 
     }
+    int x =2;
+    int y =-2;
 }

@@ -16,16 +16,11 @@ public class LogicalOp {
         }
 
     }
-}
- class LogicalOp2 {
     private string text;
     string first = text;
     private string text2;
     string second = text2;
 
-     LogicalOp2(string text) {
-         this.text = text;
-     }
 
      public void learningTextComparison(string first, string second) {
         if (first.equals(second)) {

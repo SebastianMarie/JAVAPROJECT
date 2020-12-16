@@ -1,7 +1,6 @@
 package com.company.lab2.AnimalRescue;
 
-public class Dog  {
-
+public class Dog extends PetAnimal {
     public String name;
     public double ageInYears;
     public String color;

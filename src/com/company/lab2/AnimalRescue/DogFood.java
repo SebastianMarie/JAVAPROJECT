@@ -1,6 +1,6 @@
 package com.company.lab2.AnimalRescue;
 
-public class DogFood {
+public class DogFood extends PetFood{
 
 
         public String name;

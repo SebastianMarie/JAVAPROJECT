@@ -1,6 +1,6 @@
 package com.company.lab2.AnimalRescue;
 
-public class Vet {
+public class Vet extends People{
 
     public String name;
     public Double AgeInYears;

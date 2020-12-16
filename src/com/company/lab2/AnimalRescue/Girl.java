@@ -1,6 +1,6 @@
 package com.company.lab2.AnimalRescue;
 
-public class Girl {
+public class Girl extends People{
         private final String setname = "Sofia";
     public String name;
     public double ageInYears;
