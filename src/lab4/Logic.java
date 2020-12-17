@@ -1,5 +1,6 @@
 package lab4;
 
+
 public class Logic {
 
 
@@ -11,8 +12,25 @@ public class Logic {
 
 
     }
-    public void getSum(int first, int last){
+
+    public int getSum(int first, int last) {
+    int sum = 0;
+    for(int i = first;i <= last; i++ ) {
+    sum = i + sum;
+    }
+    return sum;
 
 
     }
+
+    {
+
+
+
+    }
+
+
+
+
+
 }
