@@ -1,7 +1,7 @@
 package lab4;
 
 
-public class Logic {
+public class Logic<count> {
 
 
     public void printToHundred(int startValue) {

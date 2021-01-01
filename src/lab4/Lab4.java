@@ -1,9 +1,17 @@
 package lab4;
 
-public class Lab4<finish, start, i> {
+public class Lab4<finish, start, i, count> {
     public static void main(String[] args) {
 
 //Given a number , print all the numbers from the given number to 100
+
+
+        int count = 1;
+        while(count <= 100) {
+            System.out.println(count);
+            count = count + 1;
+        }
+
 
         int x = 25;
         for (int i = x; i < 100; i++) {
@@ -11,9 +19,18 @@ public class Lab4<finish, start, i> {
 
         }
         // Sum the numbers from 1 to 100
-        int sum = 0;
+
+        int y = 1, sum = 0;
+
+        while (y <= 100) {
+            sum = sum + y;
+            y++;
+        }
+        System.out.println("Summation: " + sum);
+
+        int sum1 = 0;
         for (int j = 1; j <=100;j++){
-            sum = j + sum;
+            sum1 = j + sum1;
         }
         System.out.println(sum);
 
@@ -56,6 +73,7 @@ public class Lab4<finish, start, i> {
             }
         }
     }
+
 
 }
 
