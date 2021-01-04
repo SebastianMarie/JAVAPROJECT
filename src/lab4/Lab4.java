@@ -73,9 +73,67 @@ public class Lab4<finish, start, i, count> {
             }
         }
     }
+    public static class SumNatural {
+// Calculate the sum from 111 to 8899 with while loop
+        public static void main(String[] args) {
+
+            int num = 8899, i = 111, sum = 0;
+
+            while(i <= num)
+            {
+                sum += i;
+                i++;
+            }
+
+            System.out.println("Sum = " + sum);
+        }
+    }
+// Calculate the average of numbers from 111 to 8899 with while loop
+    //n=8899-111=8788
+    //sumF=39594445
+
+   //Display the first 20 numbers of Fibonacci
+   public static class Fibonacci {
+
+       public static void main(String[] args) {
+
+           int i = 1, n = 20, t1 = 0, t2 = 1;
+           System.out.print("First " + n + " terms: ");
+
+           while (i <= n)
+           {
+               System.out.print(t1 + " + ");
+
+               int sum = t1 + t2;
+               t1 = t2;
+               t2 = sum;
+
+               i++;
+           }
+       }
+
+    }
+
+    private static void print(String s) {
+
+        int d = 1;
+        while (d <= 110); d++;{
+            if ((d % 3) == 0); print ("Coza" + " ");
+            if ((d % 5) == 0); print ("Loza" + " ");
+            if ((d % 3) == 0); print ("Woza" + " ");
+            if ((d % 3) == 0 &&(d % 5) == 0); print ("CozaLoza" + " ");
+            if ((d % 3) == 0 &&(d % 7) == 0); print ("CozaWoza" + " ");
+            if ((d % 5) == 0 &&(d % 7) == 0); print ("LozaWoza" + " ");
+            if ((d % 3) == 0 &&(d % 5) == 0 && (d % 7) == 0); print ("CozaLozaWoza" + " ");
+            if ((d % 11) == 0); print ("d"); System.out.println();
+            if ((d % 3) != 0 || (d % 5) != 0 || (d % 7) != 0); print ("d");
+        }
+
+}
 
 
 }
+
 
 
 
