@@ -70,10 +70,10 @@ public class Logic {
 
     public void displayFibonacci() {
 
-        int i = 1, n = 20, t1 = 0, t2 = 1;
+        int j = 1, n = 20, t1 = 0, t2 = 1;
         System.out.print("First " + n + " terms: ");
 
-        while (i <= n)
+        while (j <= n)
         {
             System.out.print(t1 + " + ");
 
@@ -81,12 +81,12 @@ public class Logic {
             t1 = t2;
             t2 = sum;
 
-            i++;
+            j++;
         }
     }
     // Print 10 lines from 1 to 110 , with 11 positions on each line with Coza,Loza,Woza, etc.
 
-    public void displayCozaLozaWoza() {
+    public void printLinesCozaLozaWoza() {
 
             int i = 1;
 

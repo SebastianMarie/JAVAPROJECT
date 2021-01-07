@@ -54,7 +54,7 @@ logic.countEvenNumbers();
         logic.displayFibonacci();
 
         // Apelare printCozaLozaWoza
-logic.displayCozaLozaWoza();
+logic.printLinesCozaLozaWoza();
 
     }
 
