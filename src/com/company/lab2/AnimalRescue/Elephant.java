@@ -14,13 +14,13 @@ public class Elephant extends WildAnimal{
     private String setElephantColor = "Grey";
     private double setElephantHeightInMeters = 3.3;
     private String setElephantRace = "African";
-    void scream() {
-        System.out.println("Hellyeah!");
-    }
-    void eat() {
+    public void eat() {
         System.out.println("eating elephantfood!");
     }
-    void sleep() {
+    public void sleep() {
         System.out.println("Zzzz...*snore");
+    }
+    public void speak () {
+        System.out.println("Hellyeah!");
     }
 }

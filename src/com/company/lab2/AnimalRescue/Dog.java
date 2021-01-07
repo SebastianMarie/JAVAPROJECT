@@ -16,12 +16,15 @@ public class Dog extends PetAnimal {
         void bark() {
             System.out.println("Woof!");
         }
-        void eat() {
+        public void eat() {
             System.out.println("eating dogfood!");
         }
-        void sleep() {
+        public void sleep() {
             System.out.println("Zzzz...*snore");
         }
+        public void speak () {
+        System.out.println("Woof!");
+    }
     }
 
 

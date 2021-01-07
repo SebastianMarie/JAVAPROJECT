@@ -17,10 +17,13 @@ public class Tiger extends WildAnimal{
     void scream() {
         System.out.println("Roooaaar!");
     }
-    void eat() {
+    public void eat() {
         System.out.println("eating Tigerfood!");
     }
-    void sleep() {
+    public void sleep() {
         System.out.println("Zzzz...*snore");
+    }
+    public void speak () {
+        System.out.println("Roar!");
     }
 }

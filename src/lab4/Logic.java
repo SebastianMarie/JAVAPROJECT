@@ -68,22 +68,7 @@ public class Logic {
     //Display the first 20 numbers of Fibonacci
 
 
-    public void displayFibonacci() {
 
-        int j = 1, n = 20, t1 = 0, t2 = 1;
-        System.out.print("First " + n + " terms: ");
-
-        while (j <= n)
-        {
-            System.out.print(t1 + " + ");
-
-            int sum = t1 + t2;
-            t1 = t2;
-            t2 = sum;
-
-            j++;
-        }
-    }
     // Print 10 lines from 1 to 110 , with 11 positions on each line with Coza,Loza,Woza, etc.
 
     public void printLinesCozaLozaWoza() {
@@ -116,7 +101,22 @@ public class Logic {
         }
 
 
+    public void displayFibonacci() {
 
+        int j = 1, n = 20, t1 = 0, t2 = 1;
+        System.out.print("First " + n + " terms: ");
+
+        while (j <= n)
+        {
+            System.out.print(t1 + " + ");
+
+            int sum = t1 + t2;
+            t1 = t2;
+            t2 = sum;
+
+            j++;
+        }
+    }
 
 
 
@@ -128,8 +128,7 @@ public class Logic {
     }
 
 
-    public void print(String s) {
-    }
+
 
 
 }

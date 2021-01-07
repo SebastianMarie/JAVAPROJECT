@@ -14,13 +14,13 @@ public class Horse extends PetAnimal{
     private String setHorseColor = "Black";
     private double setHorseHeightInMeters = 2.3;
     private String setHorseRace = "Arabian";
-    void scream() {
-        System.out.println("Yyyhaaa!");
-    }
-    void eat() {
+    public void eat() {
         System.out.println("eating Horsefood!");
     }
-    void sleep() {
+    public void sleep() {
         System.out.println("Zzzz...*snore");
+    }
+    public void speak () {
+        System.out.println("Yyyhaaa!");
     }
 }

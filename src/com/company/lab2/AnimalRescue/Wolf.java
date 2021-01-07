@@ -14,13 +14,13 @@ public class Wolf extends WildAnimal{
     private String setWolfColor = "White";
     private double setWolfHeightInMeters = 1.3;
     private String setWolfRace = "Alaskan";
-    void bark() {
-        System.out.println("Aaauuuh!");
-    }
-    void eat() {
+    public void eat() {
         System.out.println("eating Wolffood!");
     }
-    void sleep() {
+    public void sleep() {
         System.out.println("Zzzz...*snore");
+    }
+    public void speak () {
+        System.out.println("Auuh!");
     }
 }

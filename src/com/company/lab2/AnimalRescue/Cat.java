@@ -15,10 +15,13 @@ public class Cat extends PetAnimal{
     private double setCatHeightInMeters = 0.3;
     private String setCatRace = "Siamese";
     void purr() { System.out.println("Puuurrr!"); }
-    void eat() {
+    public void eat() {
         System.out.println("eating catfood!");
     }
-    void sleep() {
+    public void sleep() {
         System.out.println("Zzzz...*snore");
+    }
+    public void speak () {
+        System.out.println("Miao!");
     }
 }

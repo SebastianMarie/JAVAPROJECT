@@ -49,12 +49,16 @@ logic.countEvenNumbers();
 
         logic.printString();
 
-// Apelare displayFibonacci primele 20 numere
 
-        logic.displayFibonacci();
+
+
 
         // Apelare printCozaLozaWoza
 logic.printLinesCozaLozaWoza();
+
+// Apelare displayFibonacci primele 20 numere
+logic.displayFibonacci();
+
 
     }
 
