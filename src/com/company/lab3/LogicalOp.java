@@ -1,12 +1,12 @@
 package com.company.lab3;
 
 public class LogicalOp {
-public int firstNumber;
-public int secondNumber;
 
 
 
-    public int checkBiggerNumber(int firstNumber, int secondNumber) {
+
+
+    public static int checkBiggerNumber(int firstNumber, int secondNumber) {
 
         if (firstNumber< secondNumber) {
 
