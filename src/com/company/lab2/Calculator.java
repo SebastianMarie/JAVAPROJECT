@@ -15,8 +15,8 @@ import java.util.Scanner;
         }
     }
 
-     class Input2 {
-        public static  class Lab2 {
+
+        public class Calculator {
 
 
             public static void main(String[] args) {
@@ -26,37 +26,37 @@ import java.util.Scanner;
 
                 float b = divide(5, 4);
                 System.out.println(b);
-                int c = subtract(5, 2);
+                double c = (int) subtract(5, 2);
                 System.out.println(c);
-                int d = multiply(5, 4);
+                double d = (double) multiply(5, 4);
                 System.out.println(d);
                 float e = divide(2, 1, 2);
                 System.out.println(e);
             }
 
-             static int sum(int firstNumber, int secondNumber) {
-                return (firstNumber + secondNumber);
+             static int sum(int firstNumber, double secondNumber) {
+                return (int) (firstNumber + secondNumber);
 
             }
 
-             static int subtract(int firstNumber, int secondNumber) {
+             static double subtract(int firstNumber, double secondNumber) {
                 return (firstNumber - secondNumber);
             }
 
-             static int multiply(int firstNumber, int secondNumber) {
+             static double multiply(double firstNumber, double secondNumber) {
                 return (firstNumber * secondNumber);
             }
 
-             static float divide(float firstNumber, float secondNumber) {
+             static float divide(int firstNumber, float secondNumber) {
                 return (firstNumber / secondNumber);
             }
 
-             static float divide(float thirdNumber, float forthNumber, float fifthNumber) {
+             static float divide(int thirdNumber, int forthNumber, float fifthNumber) {
 
                 return (thirdNumber / forthNumber / fifthNumber);
             }
         }
-    }
+
 
 
 

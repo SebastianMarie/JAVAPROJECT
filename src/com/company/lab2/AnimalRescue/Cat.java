@@ -24,4 +24,5 @@ public class Cat extends PetAnimal{
     public void speak () {
         System.out.println("Miao!");
     }
+
 }
