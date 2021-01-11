@@ -1,4 +1,4 @@
-package lab4;
+package com.company.lab4;
 
 
 public class Logic {

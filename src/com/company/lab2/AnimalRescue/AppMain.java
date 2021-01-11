@@ -39,11 +39,11 @@ public class AppMain {
     public Double VetAgeInYears;
 
     private static void main(String[] args) {
-        Dog myDog = new Dog();
+        Pug myDog = new Pug();
         DogFood myDogFood = new DogFood();
         Girl myGirl = new Girl();
         Vet myVet = new Vet();
-        Dog mySecondDog = new Dog();
+        Dog mySecondDog = new Bichon();
         mySecondDog.name = "Sacha";
         DogFood mySecondDogFood = new DogFood();
         mySecondDogFood.name = "Purina";
