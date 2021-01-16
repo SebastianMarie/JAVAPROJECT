@@ -1,6 +1,7 @@
 package com.company.lab6;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class Logic {
@@ -45,9 +46,35 @@ public class Logic {
         }
     // Tema ex. 7 Scrieti o metoda Java care sa primeasca parametru o Lista, si sa afiseze ce valori are lista, si ce
     // pe ce pozitie.
+    public static void main(String[] args)
+    {
+        // Size of ArrayList
+        int n = 5;
 
+        // Declaring the List with initial size n
+        List<Integer> arrli = new ArrayList<Integer>(n);
+
+        // Appending the new elements
+        // at the end of the list
+        for (int i = 1; i <= n; i++)
+            arrli.add(i);
+
+        // Printing elements
+        System.out.println(arrli);
     }
-
+    // Tema ex.8 Scrieti o metoda Java care sa primeasca o Lista si sa returneze cel mai mare numar din ea.
+    public class MaxList {
+        public void main(String[] args) {
+            List l = new ArrayList();
+            l.add(1);
+            l.add(2);
+            l.add(3);
+            l.add(4);
+            l.add(5);
+            System.out.println(Collections.max(l)); // 5
+        }
+    }
+}
 
 
 
