@@ -7,6 +7,10 @@ import java.util.Arrays;
 import java.util.ArrayList;
 
 public class ReadFromKeyboard {
+
+
+    private static Object Student;
+
     //Tema ex.1
     public float readFloat() throws InputMismatchException {
 
@@ -27,7 +31,8 @@ public class ReadFromKeyboard {
 
     }
     //Tema ex.2
-    static class Student{
+    public static void displayDetails() {
+    class Student{
         String name;
         int age;
         float percent;
@@ -52,9 +57,9 @@ public class ReadFromKeyboard {
             }
             System.out.println("Grade: "+this.grade);
 
-        }
 
-        public static void main(String args[]) {
+
+
             Scanner sc =new Scanner(System.in);
             System.out.println("Enter your name: ");
             String name = sc.next();
@@ -73,8 +78,10 @@ public class ReadFromKeyboard {
         }
 
 }
+    }
+
     //Tema ex.3
-    public static void main(String args[]) {
+    public static <Student> void main(String args[]) {
         Scanner sc =new Scanner(System.in);
         System.out.println("Enter your name: ");
         String name = sc.next();
@@ -86,9 +93,11 @@ public class ReadFromKeyboard {
         boolean isLocal = sc.nextBoolean();
         System.out.println("Enter your grade(enter A, or, B or, C or, D): ");
         char grade = sc.next().toCharArray()[0];
-        Student std = new Student(name, age, percent, isLocal, grade);
-        std.displayDetails();
+
     }
+
+
+
     //Tema ex.4
     public static class PopulatingAnArray {
         public static void main(String args[]) {
@@ -103,6 +112,7 @@ public class ReadFromKeyboard {
             System.out.println("Contents of the array are: "+Arrays.toString(myArray));
         }
     }
+
     public String readArrayList() throws InputMismatchException {
         ArrayList<String> arrayList = new ArrayList<>();
 
